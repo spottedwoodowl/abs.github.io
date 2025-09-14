@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SC1013 Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    .email-content {
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px;
+    }
+    .email-content p {
+      margin-bottom: 15px;
+    }
+    .highlight {
+      font-weight: bold;
+      color: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <h2>SC1013 Absence Notification</h2>
+
+  <div class="email-content">
+    <p>Dear <span class="highlight">%STUDENT_FULLNAME%</span>,</p>
+
+    <p>
+      It is noted that you were absent for the 
+      <span class="highlight">%SUBJECT_CODE%</span>, group 
+      <span class="highlight">%CLASS_GROUP%</span> on 
+      <span class="highlight">%LAB_DATE%</span> 
+      <span class="highlight">%LAB_START_TIME%</span> at 
+      <span class="highlight">%LAB_VENUE%</span>.
+    </p>
+
+    <p>In order for you to schedule a makeup session, please complete the below:</p>
+    <ol>
+      <li>Complete the short leave application form:
+        <a href="https://forms.office.com/r/L47ChppB9J" target="_blank">
+          https://forms.office.com/r/L47ChppB9J
+        </a>
+      </li>
+      <li>Submit an official medical certificate (MC).</li>
+    </ol>
+
+    <p>
+      Carbon-copied (CC) the Automated Email from 
+      <strong>CCDS-Undergrad</strong>  
+      (<em>Subject Line: MS Forms response submitted for Short Leave of Absence</em>)  
+      and the MC to the technician email: 
+      <span class="highlight">yeoksoon.goh.edu.sg</span>  
+      to arrange for a make-up lab.
+    </p>
+
+    <p>
+      <strong>Note:</strong> Laboratory lesson is compulsory, and students are required 
+      to make up as soon as possible within 
+      <span class="highlight">1 week</span> of the missed class.
+    </p>
+
+    <p>
+      Kindly ignore this email if you have already arranged for a make-up lab session.
+    </p>
+
+    <p>Thank you.</p>
+
+    <p><em>This is a system generated email. Please do not reply.</em></p>
+  </div>
+</body>
+</html>
