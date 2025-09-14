@@ -2,7 +2,7 @@
 title: Absentee Form
 description: Personal site powered by Jekyll | Showcasing projects, blog, and resume
 url: "https://spottedwoodowl.github.io"    # Your GitHub Pages domain
-baseurl: "/ysgoh.github.io"               # Must match your repo name
+baseurl: "/abs.github.io"               # Must match your repo name
 
 # Jekyll Configuration
 theme: minima  # Using the standard minima theme
